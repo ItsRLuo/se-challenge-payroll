@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bulletinApi",
+  "dependencies": {
+    "aws-sdk": "^2.530.0",
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.0",
+    "georedis": "^3.1.1",
+    "ioredis": "^4.14.0",
+    "multer": "^1.4.2",
+    "neat-csv": "^5.2.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1",
+    "redis": "^2.8.0",
+    "redis-notifier": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Luo",
+  "license": "ISC"
+}
