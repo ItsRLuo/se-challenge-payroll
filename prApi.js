@@ -25,7 +25,6 @@ console.info = function (data) {
       textColor = `${APICODE[data.slice(1, 5)].color}%s\x1b[0m`
     }
   } catch (error) {
-    console.log(timestamp + data)
     console.error(error)
   }
   this.infoCopy(textColor, timestamp + data + '\n')

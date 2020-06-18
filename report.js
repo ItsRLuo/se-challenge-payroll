@@ -74,7 +74,6 @@ export async function storePayRollInfo (req, res) {
         const formatedAgrroCSV = csvArr.map(record => {
           const dateArr = record.date.split('/')
           const formatedDate = new Date(null)
-          console.log(dateArr[1])
           formatedDate.setFullYear(dateArr[2])
           if (dateArr[0] <= 15) {
             formatedDate.setDate(15)
