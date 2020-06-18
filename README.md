@@ -1,4 +1,5 @@
 1, To start the services:
+	`npm install`
 	`docker-compose build`
 	`docker-compose up`
 **Note, make sure there are no conflicting ports active when running `up`
